@@ -1,0 +1,107 @@
+
+@charset "UTF-8";
+/* CSS Document */
+*{box-sizing: border-box;}
+body{background: url("none this is for practice if i needed a backround") no-repeat fixed top}
+#container{width:800px; margin:0 auto;}
+.left{width: 320px;
+         height:200px;
+         background-color:rgb(255, 255, 255);
+          border-radius: 25px;
+         float: left;
+         margin:0px 10px 0px 10px;}
+.right{width: 320px;
+         height:200px;
+         background-color:rgb(255, 255, 255);
+         border-radius:  25px;
+         float: left;}
+
+     footer{background-color:rgb(216, 173, 173);
+    clear:both;}
+    header > h1{text-align: center;
+    color: rgb(255, 255, 255);}
+    #container .right {
+        background-color:rgba(17, 17, 195, 0.31);}
+
+       .style
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    
+        th, td {
+            border: 2px solid #98c2b9;
+            padding: 14px;
+            text-align: left;
+        }
+    
+        th {
+            background-color: #afd2ff;
+            color: #333;
+        }
+    
+        tr:hover {
+            background-color: #6fecd5;
+        }
+    
+        /* Add media query for responsive design */
+        @media (max-width: 700px) {
+            table {
+                width: 100%;
+                display: block;
+                overflow-x: auto;
+            }
+        }
+
+        .lookings {
+            font-family: Arial, sans-serif;
+        }
+        
+        .lookings {
+            list-style-type: none; /* Remove default bullets */
+            padding: 0;           /* Remove default padding */
+        }
+        
+        .lookings {
+               background-color: #d396be; /* Background color for list items */
+               margin: 10px 0;            /* Spacing between items */
+               padding: 10px;             /* Padding inside items */
+               border: 1px solid #5c254b;    /* Border around items */
+               border-radius: 5px;        /* Rounded corners */
+               transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        
+        .lookings li:hove {
+            background-color: #e0e0e0; /* Change background color on hover */
+        }
+        
+ .style
+
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.animal{
+    list-style-type: none; /* Remove default bullets */
+    padding: 20px;        /* Padding around the list */
+    display: grid;        /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px;            /* Space between cards */
+}
+
+.animal {
+    background-color: #fff; /* White background for list items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px;    /* Rounded corners */
+    padding: 15px;          /* Padding inside items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.animal  {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+
